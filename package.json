@@ -1,0 +1,60 @@
+{
+  "name": "ai-electron",
+  "productName": "ai-electron",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "Ms.THANAWAN PANAPONGPAISAN <63130500211@st.sit.kmutt.ac.th>",
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "ai_electron"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "electron-forge": "^5.2.4",
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.67",
+    "electron-prebuilt-compile": "21.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suisuiss/ai-electron.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suisuiss/ai-electron/issues"
+  },
+  "homepage": "https://github.com/suisuiss/ai-electron#readme"
+}
