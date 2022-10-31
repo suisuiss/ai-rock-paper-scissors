@@ -14,7 +14,7 @@ body {
 margin-top: 30%;
 }
 
-.first-page>button {
+.first-page>.btn-next>a>button {
   border-color:black;
   border-width: thin;
   padding: 16px 32px;
@@ -49,6 +49,7 @@ h1{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-decoration: none;
+  color: black;
   
 }
 
