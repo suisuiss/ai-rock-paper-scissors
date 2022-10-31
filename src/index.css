@@ -6,6 +6,10 @@ body {
   padding: 2rem;
 }
 
+.first-page{
+  align-items: center;
+}
+
 .first-page>img{
 margin-top: 30%;
 }
@@ -22,7 +26,7 @@ margin-top: 30%;
   cursor: pointer;
   border-radius: 20px;
   position: absolute;
-  top: 65%;
+  top: 480px;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
