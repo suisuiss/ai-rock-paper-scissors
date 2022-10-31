@@ -37,3 +37,18 @@ h1{
   margin-top: 0px;
 }
 
+.first-page>a{
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 20px;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  
+}
+
