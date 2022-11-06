@@ -44,11 +44,12 @@
   "dependencies": {
     "electron": "^21.2.0",
     "electron-forge": "^5.2.4",
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "npm": "^8.19.2"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.67",
-    "electron-prebuilt-compile": "21.1.0"
+    "electron-prebuilt-compile": "8.2.0"
   },
   "repository": {
     "type": "git",
