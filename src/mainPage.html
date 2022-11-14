@@ -28,7 +28,21 @@
         <!-- import image form images -->
         <div class="sidebar3">
             
-            <img class='banner ' src="./images/rps.png" alt="camera" style="width: 100%; height: 100%;">
+            <div class="contentarea">
+                
+                <div class="camera">
+                  <video id="video">Video stream not available.</video>
+                  <button id="startbutton">Take photo</button>
+                </div>
+
+                <canvas id="canvas"> </canvas>
+
+                <div class="output">
+                  <img id="photo" alt="The screen capture will appear in this box." />
+                </div>
+                
+              </div>
+
         </div>
      
         </div>
@@ -58,6 +72,8 @@
             <a href="index.html" style="text-decoration: none; color:black"> next round</a>
         </button>
     </div>
+
+    <script type="module" src="mainPage.js"></script>
 </body>
 
 </html>
